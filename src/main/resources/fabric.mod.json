@@ -3,15 +3,15 @@
 	"id": "tutorial-mod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a Tutorial!",
 	"authors": [
-		"Me!"
+		"Tirzaannil!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://kaupenjoe.net",
+		"sources": "https://github.com/Tutorials-By-kaupenjoe/Fabric-Tutorial-1.21.X"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tutorial-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.tirzaanneil.tutorialmoding.TutorialModDataGenerator"
-		]
+		],
+        "client": [
+            "net.tirzaanneil.tutorialmoding.TutorialModClient"
+        ]
 	},
 	"mixins": [
 		"tutorial-mod.mixins.json"
